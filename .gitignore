@@ -1,12 +1,14 @@
-# Maven build output
-target/
-*.class
-
-# IDE files
-.classpath
-.project
-.settings/
+# Maven build output (ignore everywhere)
+**/target/
 
 # Logs
 *.log
-**/target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
